@@ -8,7 +8,7 @@ as well as fetching rows from a SQL Server database.
 """
 import pyodbc 
 
-class Model(object):
+class PySQLCon(object):
     """
         This connects to any SQL Server database and executes stored procedures saved 
         in that database as well as raw SQL queries.

@@ -13,5 +13,8 @@ ODBC Driver 13 for SQL Server
 
 """
 
-from .base import Model
+from .base import PySQLCon
+from .orm import Field, IntField, FloatField, StringField, BooleanField, DatetimeField
+from .orm import Relation, InverseRelation
+from .queryset import *
 from .errors import InvalidFileException
