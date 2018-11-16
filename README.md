@@ -3,6 +3,7 @@
 **Dependencies to be installed are**:
 
 1. pyodbc
+2. ODBC Driver 13 for SQL Server https://www.microsoft.com/en-us/download/details.aspx?id=53339
 
 
 
