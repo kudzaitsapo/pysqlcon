@@ -4,6 +4,9 @@ setup(name='',
       version='0.4',
       url='https://github.com/kudzaitsapo/pysqlcon',
       license='MIT',
+      install_requires=[
+        'pyodbc>=0.4.26'
+    ],
       author='Kudzai Tsapo',
       author_email='kudzai@charteredsys.com',
       description='Easy execution of sql statements and stored procedures on MSSQL database',
