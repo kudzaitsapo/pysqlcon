@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
  
-setup(name='',
+setup(name='pysqlcon',
       version='0.4',
       url='https://github.com/kudzaitsapo/pysqlcon',
       license='MIT',
